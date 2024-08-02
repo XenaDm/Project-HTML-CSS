@@ -1,0 +1,319 @@
+@media screen  and (max-width: 480px) {
+    /*-------------------main-------------------------------*/
+    nav {
+        display: none;
+    }
+
+    #startScreen main {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #logoTitle {
+        margin: 30px 0 0 10px;
+    }
+
+    #logoSub {
+        margin-left: 10px;
+    }
+
+    #startDescription {
+        width: 300px;
+        text-align: center;
+        gap: 42px;
+        margin: 40px 0 0 0;
+
+    }
+
+    #startDescription h2 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    #startDescription p {
+        font-size: 15px;
+        margin: 0;
+        width: 100%;
+    }
+
+    #startScreen main img {
+        height: 270px;
+        width: 260px;
+        position: relative;
+        right: 10px;
+        left: 50px;
+        top: 0;
+        display: inline-flex;
+    }
+
+    main #start-puppy {
+        height: auto;
+        bottom: -3px;
+        width: 100%;
+    }
+
+    /*-----------------------about-------------------------------------*/
+    #about {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #about-content {
+        flex-direction: column-reverse;
+        width: 300px;
+        margin: 0;
+        gap: 42px;
+
+    }
+
+    #about #content h3 {
+        letter-spacing: 1.5px;
+        font-size: 25px;
+        width: 300px;
+        margin: 0;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 32.5px */
+
+    }
+
+    #content {
+        width: 100%;
+        margin-top: 42px;
+    }
+
+    #about #content p {
+        text-align: justify;
+        font-size: 15px;
+        width: 270px;
+        margin: 0 15px 22px 15px;
+    }
+
+    #about-content > section > img {
+        height: 353px;
+        margin: 0;
+
+    }
+
+    #img {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    /*-------------------pets---------------*/
+    .petCard:nth-child(n+2) {
+        display: none;
+    }
+
+    #ourPets {
+        height: auto;
+        padding: 0;
+        margin-bottom: 42px;
+    }
+
+    #ourPets h2 {
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        margin: 42px 10px;
+    }
+
+    #petsContent {
+        gap: 0;
+        padding-bottom: 42px;
+    }
+
+    #rest {
+        margin: 72px 20px 42px 20px;
+    }
+
+    /*------------------help-----------------------------------*/
+    #help {
+        height: 745px;
+    }
+
+    #helpContent {
+        gap: 42px;
+        margin: 0 15px;
+        padding: 0;
+
+    }
+
+    #helpContent h3 {
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        margin-bottom: 0;
+    }
+
+    #helpContent h4 {
+        font-size: 15px;
+        line-height: 110%; /* 16.5px */
+        letter-spacing: 0.9px;
+    }
+
+    #helpContent tr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+
+    #helpContent td {
+        column-span: 1;
+        border: 5px;
+        margin-top: 30px;
+        height: auto;
+    }
+
+    #helpContent td img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #helpContent table {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .helpBottom {
+        margin: 0;
+        justify-content: flex-start;
+    }
+
+    #helpContent tbody {
+        width: 290px;
+        display: flex;
+        margin-left: 40px;
+    }
+
+    /*------------------donation-----------------------------------*/
+    #donation {
+        height: 542px;
+        gap: 42px;
+    }
+
+    #donationContent {
+        gap: 42px;
+        flex-direction: column-reverse;
+    }
+
+    #donation-txt {
+        margin: 0 10px;
+        width: 300px;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #donation-txt h3 {
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+
+    #donation-txt p:first-of-type {
+        font-size: 15px;
+        line-height: 160%; /* 24px */
+        width: 273px;
+        letter-spacing: 0;
+    }
+
+    #credit-card {
+        font-size: 15px;
+        line-height: 110%; /* 16.5px */
+        letter-spacing: 0.9px;
+    }
+
+    #donation-txt p:last-of-type {
+        text-align: justify;
+        line-height: 18px; /* 150% */
+        width: 280px;
+    }
+
+    #imgPuppy {
+        width: auto;
+        height: auto;
+    }
+
+    #imgPuppy img {
+        height: 135.2px;
+        width: auto;
+    }
+
+    /*==========================footer=============================*/
+    footer {
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 0;
+        margin: 0;
+    }
+
+    footer > #left-content #mid-content {
+        width: 300px;
+    }
+
+    footer > #left-content #mid-content #right-content {
+        margin: 0;
+        gap: 0;
+    }
+
+    #left-content {
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+    #left-content div {
+        margin: 0 34px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #left-content h3 {
+        margin: 30px 21px 0 21px;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        height: 64px;
+    }
+
+    #mid-content h3 {
+        margin: 0 25px;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        height: 64px;
+    }
+
+    #mid-content {
+        margin: 0 10px 40px 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mid-content div {
+        align-items: center;
+        height: auto;
+        margin: 0 10px;
+        justify-content: center;
+    }
+
+    #right-content {
+        height: auto;
+    }
+
+    #right-content img {
+        width: 260px;
+        height: 269px;
+        margin: auto;
+    }
+}
+
+
